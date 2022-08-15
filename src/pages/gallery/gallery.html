@@ -1,0 +1,38 @@
+<div wm-include="./galleryHeader.html"></div>
+
+<div class="container mt-5"> 
+    <!-- City buttons -->
+
+    <div class="row justify-content-center pb-5">
+        <div wm-telescope-buttons></div>
+    </div>
+
+   <div class="row d-flex justify-content-center">
+    <div class="col-12 col-md-6 col-lg-3">
+        <img src="/imgs/cnJWST1.png" class="img-fluid mb-4"
+            wm-telescope="James Webb">
+    </div>
+    <div class="col-12 col-md-6 col-lg-3">
+        <img src="/imgs/cnHST1.png" class="img-fluid mb-4"
+            wm-telescope="Hubble">
+    </div>
+    <div class="col-12 col-md-6 col-lg-3">
+        <img src="/imgs/srnJWST1.jpg" class="img-fluid mb-4"
+            wm-telescope="James Webb">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            <img src="/imgs/srnHST1.jpg" class="img-fluid mb-4"
+                wm-telescope="Hubble">
+        </div>
+    <div class="col-12 col-md-6 col-lg-3">
+        <img src="/imgs/sqJWST1.jpg" class="img-fluid mb-4"
+            wm-telescope="James Webb">
+    </div>
+    <div class="col-12 col-md-6 col-lg-3">
+        <img src="/imgs/sqHST1.jpg" class="img-fluid mb-4"
+            wm-telescope="Hubble">
+    </div>
+   </div> 
+</div>
+
+<script>$('[wm-telescope-buttons]').telescopeButtons()</script>
